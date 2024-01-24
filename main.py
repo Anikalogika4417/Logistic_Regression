@@ -35,6 +35,7 @@ for i in range (1, 120):
     plt.plot(i/10.0 - 2, logistic(model, i/10.0), 'ro', color='green')
 
 plt.axis([-1, 10, -0.5, 1.5])
+plt.show()
 
 
 pred = model.predict_proba([[4.45]])
